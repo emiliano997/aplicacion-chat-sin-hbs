@@ -29,7 +29,7 @@ io.on("connection", (socket) => {
   //   socket.disconnect();
   // }
 
-  console.log("Nuevo cliente conectado:", socket.id);
+  console.log("Nuevo cliente conectado:", socket.id, "Algo más");
 
   // Manejamos los mensajes que recibimos
   socket.on("message", (data) => {
